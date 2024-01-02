@@ -2,4 +2,4 @@
 Contributors
 ============
 
-* t-silvers <silvers@molgen.mgp.de>
+* Thomas R. Silvers <silvers@molgen.mgp.de>

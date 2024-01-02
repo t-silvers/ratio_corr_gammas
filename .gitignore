@@ -23,6 +23,10 @@ __pycache__/*
 .vscode
 tags
 
+# temp
+CONTRIBUTING.rst
+tests/conftest.py
+
 # Package files
 *.egg
 *.eggs/

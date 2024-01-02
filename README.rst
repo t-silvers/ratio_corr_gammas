@@ -1,28 +1,3 @@
-.. These are examples of badges you might want to add to your README:
-   please update the URLs accordingly
-
-    .. image:: https://api.cirrus-ci.com/github/<USER>/ratio_corr_gammas.svg?branch=main
-        :alt: Built Status
-        :target: https://cirrus-ci.com/github/<USER>/ratio_corr_gammas
-    .. image:: https://readthedocs.org/projects/ratio_corr_gammas/badge/?version=latest
-        :alt: ReadTheDocs
-        :target: https://ratio_corr_gammas.readthedocs.io/en/stable/
-    .. image:: https://img.shields.io/coveralls/github/<USER>/ratio_corr_gammas/main.svg
-        :alt: Coveralls
-        :target: https://coveralls.io/r/<USER>/ratio_corr_gammas
-    .. image:: https://img.shields.io/pypi/v/ratio_corr_gammas.svg
-        :alt: PyPI-Server
-        :target: https://pypi.org/project/ratio_corr_gammas/
-    .. image:: https://img.shields.io/conda/vn/conda-forge/ratio_corr_gammas.svg
-        :alt: Conda-Forge
-        :target: https://anaconda.org/conda-forge/ratio_corr_gammas
-    .. image:: https://pepy.tech/badge/ratio_corr_gammas/month
-        :alt: Monthly Downloads
-        :target: https://pepy.tech/project/ratio_corr_gammas
-    .. image:: https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter
-        :alt: Twitter
-        :target: https://twitter.com/ratio_corr_gammas
-
 .. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
     :alt: Project generated with PyScaffold
     :target: https://pyscaffold.org/
@@ -34,10 +9,22 @@ ratio_corr_gammas
 =================
 
 
-    Add a short description here!
+    Provides a scipy implementation of the ratio of correlated gammas distribution.
 
 
-A longer description of your project goes here...
+This package includes:
+
+* A custom scipy distribution for the ratio of correlated gammas (RCG).
+* A rejection sampler for RCG sampling.
+* A convenience function for efficient sampling based on parameter values.
+
+
+References
+==========
+
+1. Weinhold, L., Wahl, S., Pechlivanis, S., Hoffmann, P., & Schmid, M. (2016). A statistical model for the analysis of beta values in DNA methylation studies. *BMC Bioinformatics*, 17(1). `DOI:10.1186/s12859-016-1347-4 <http://dx.doi.org/10.1186/s12859-016-1347-4>`_
+
+2. Berger, M., Wagner, M., & Schmid, M. (2019). Modeling biomarker ratios with gamma distributed components. *The Annals of Applied Statistics*, 13(1). `DOI:10.1214/18-AOAS1207 <http://dx.doi.org/10.1214/18-aoas1207>`_
 
 
 .. _pyscaffold-notes:
